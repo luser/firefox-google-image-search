@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Google Image Search",
+  "description": "Google Image search in image context menus",
+  "version": "1.0",
+
+  "applications": {
+    "gecko": {
+      "id": "google-image-search@ted.mielczarek.org"
+    }
+  },
+
+  "permissions": [
+    "contextMenus"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
